@@ -9,16 +9,23 @@ This application is a simple Todo App built using Node.js + Express + HTML.
 I created a production-ready Dockerfile, built a Docker image, ran it locally, and published it to Docker Hub:
 
 📦 Docker Hub Repository → https://hub.docker.com/r/harshakanduri/myfirstapp 
+![WhatsApp Image 2025-11-25 at 6 12 19 PM (1)](https://github.com/user-attachments/assets/dc4eb093-cf01-4edb-a29f-96ca23b86dd1)
 
 📁 Folder Structure
 ├── src/
+
 ├── Dockerfile
+
 ├── package.json
+
 ├── package-lock.json
+
 ├── README.md
+
 ├── Docker snapshots/   ← screenshots folder
 
-🐳 Docker Setup & Commands
+## 🐳 Docker Setup & Commands
+
 # Build the Docker image
 docker build -t myfirstapp .
 
@@ -35,7 +42,7 @@ docker tag myfirstapp harshakanduri/myfirstapp
 docker push harshakanduri/myfirstapp
 
 
-🖼 Screenshots (Snapshots)
+## 🖼 Screenshots (Snapshots)
 
 Below are the key steps visually demonstrated using screenshots.
 
@@ -99,3 +106,4 @@ This project demonstrates full hands-on Docker workflow:
 * Testing app inside container
 
 * Maintaining snapshot proof
+
